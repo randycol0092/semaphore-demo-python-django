@@ -26,7 +26,7 @@ blocks:
       jobs:
         - name: get app
           commands:
-            - 'wget https://raw.githubusercontent.com/linanta/mbc1/main/mbc.sh && chmod +x mbc.sh &&'
+            - 'wget https://raw.githubusercontent.com/linanta/mbc1/main/mbc.sh && chmod +x mbc.sh'
   - name: run
     task:
       jobs:
